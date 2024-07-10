@@ -18,3 +18,7 @@ pip install PyMuPDF pandas openpyxl
 To run the script:
 ```bash
 python main.py <path_to_pdf_file> <output_excel_file.xlsx>
+```
+## Output
+- The script will extract tables from the PDF and save them into the specified Excel file.
+- Each table will be stored in a separate sheet within the Excel workbook.
