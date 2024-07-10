@@ -2,7 +2,7 @@
 
 ## Objective
 
-The objective of this project is to develop a tool that can detect and accurately extract tables from system-generated PDFs. The extracted tables should be stored in Excel sheets while adhering to the structure and content integrity of the original tables. Notably, the solution must achieve this without relying on Tabula, Camelot, or converting PDFs into images.
+The objective of this project is to develop a tool that can detect and accurately extract tables from system-generated PDFs. The extracted tables should be stored in Excel sheets while adhering to the structure and content integrity of the original tables.
 
 This Python script extracts tables from a PDF file using PyMuPDF (fitz) and saves each table into separate sheets in an Excel workbook.
 
