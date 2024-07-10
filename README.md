@@ -13,4 +13,4 @@ pip install PyMuPDF pandas openpyxl
 ```
 To run the script:
 ```bash
-python extract_tables.py <path_to_pdf_file> <output_excel_file.xlsx>
+python main.py <path_to_pdf_file> <output_excel_file.xlsx>
