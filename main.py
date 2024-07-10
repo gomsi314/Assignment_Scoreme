@@ -10,7 +10,6 @@ def extract_tables_from_pdf(pdf_path):
         page = doc.load_page(page_num)
         text = page.get_text("dict")
 
-        # Simple table detection logic based on text blocks (can be improved)
         blocks = text['blocks']
         for block in blocks:
             if 'lines' in block:
