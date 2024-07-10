@@ -10,3 +10,7 @@ This Python script extracts tables from a PDF file using PyMuPDF (fitz) and save
 Install dependencies using:
 ```bash
 pip install PyMuPDF pandas openpyxl
+```
+To run the script:
+```bash
+python extract_tables.py <path_to_pdf_file> <output_excel_file.xlsx>
